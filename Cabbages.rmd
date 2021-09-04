@@ -35,6 +35,12 @@ veggy <- cabbages
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+boxplot(VitC~Cult,data=veggy)
+```
+  
+The box plot shows that the cultivation method, c52, has a greater amount of vitamin c than the cultivation method c39. The median of c52 is about 65 and the median of c39 is about 51. Meaning that, the 25 percentile of c52 is greater than the 75 percentile of c39, which proves that c52 produces more vitamin c than c39.    
+  
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
