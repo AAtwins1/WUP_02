@@ -59,8 +59,11 @@ The average amount of vitamin c produced in c39 is 51.5. The average amount of v
 t.test(VitC~Cult,data=veggy)
 ```
     
-The p-value is 0.00000003405. Which represents the chances that we would get these specific results if the null hypothesis was true. So, if the null hypothesis is true, then, there is a 0.00000003405% of getting the same results. Since this number of receiving the specific results is so small we choose to reject the null hypothesis.   
+The p-value is 0.00000003405. Which represents the chances that we would get these specific results if the null hypothesis was true. So, if the null hypothesis is true, then, there is a 0.00000003405% of getting the same results. Since, this number of receiving the specific results is so small, we choose to reject the null hypothesis.   
   
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+  
+In conclusion, we first had to figure out what type of problem we had in order to put up the correct helper file. We learned that we needed a numerical explained by a categorical helper file. So, we uploaded the helper file, Numerical~Cat.rmd file into Rstudio. Then we imported the function in the helper file onto the problem file to graphically compare c52 and c39 using a box plot. After that, we imported a favstats function to compare the sets numerically and explain the means of each sets. Lastly, we imported a t.test function to explain the p-value given. Since, the p-value was so small we decided to reject the null hypothesis.    
+  
